@@ -1,6 +1,9 @@
-varying vec2 vUv;
+// Attribute
+#include <three_msdf_attributes>
+
+// Varyings
+#include <three_msdf_varyings>
 
 void main() {
-  gl_Position = vec4(position, 1.0);
-  vUv = uv;
+    #include <three_msdf_vertex>
 }

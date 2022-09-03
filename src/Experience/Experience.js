@@ -1,4 +1,6 @@
 import * as THREE from 'three'
+import { Pane } from 'tweakpane'
+
 import Time from './Utils/Time.js'
 import Sizes from './Utils/Sizes.js'
 import Stats from './Utils/Stats.js'
@@ -38,6 +40,7 @@ export default class Experience
         this.setRenderer()
         this.setResources()
         this.setWorld()
+        this.setDebug()
         
         this.sizes.on('resize', () =>
         {
@@ -52,7 +55,8 @@ export default class Experience
         this.config = {}
     
         // Debug
-        this.config.debug = window.location.hash === '#debug'
+        // this.config.debug = window.location.hash === '#debug'
+        this.config.debug = true
 
         // Pixel ratio
         this.config.pixelRatio = Math.min(Math.max(window.devicePixelRatio, 1), 2)
@@ -69,6 +73,12 @@ export default class Experience
         {
             this.stats = new Stats(true)
         }
+    }
+
+    setDebug() 
+    { 
+        this.debug = new Pane()
+        this.debug.containerElem_.style.width = '320px'
     }
     
     setScene()

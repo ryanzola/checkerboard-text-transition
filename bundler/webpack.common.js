@@ -54,6 +54,14 @@ module.exports = {
                 ]
             },
 
+            // JSON
+            {
+                test: /\.fnt$/,
+                use: [
+                    'json-loader'
+                ]
+            },
+
             // Images
             {
                 test: /\.(jpg|png|gif|svg)$/,
