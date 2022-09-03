@@ -2,7 +2,9 @@
 ## A study into text rendering using MSDF
 
 using THREEJS utility add-on [three-msdf-text](https://github.com/leochocolat/three-msdf-text) 
-by leochocolat
+by leochocolat.
+
+Inspired by [Gleec](https://gleec.com/)
 
 ## Setup
 Download [Node.js](https://nodejs.org/en/download/).
