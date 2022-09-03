@@ -1,4 +1,9 @@
-# Three.js - Template - Complex
+#  Multi-Channel Signed Distance Field
+## A study into text rendering using MSDF
+
+using THREEJS utility add-on [three-msdf-text](https://github.com/leochocolat/three-msdf-text) 
+by leochocolat
+
 
 🚧 This template is under construction
 
@@ -16,3 +21,4 @@ npm run dev
 # Build for production in the dist/ directory
 npm run build
 ```
+
