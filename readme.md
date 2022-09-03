@@ -1,5 +1,5 @@
 #  Multi-Channel Signed Distance Field
-## A study into text rendering using MSDF
+## A study in text rendering using MSDF
 
 using THREEJS utility add-on [three-msdf-text](https://github.com/leochocolat/three-msdf-text) 
 by leochocolat.
